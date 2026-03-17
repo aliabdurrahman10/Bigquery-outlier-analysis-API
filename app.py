@@ -8,7 +8,7 @@ app = FastAPI()
 
 # Load data hasil cleaning outlier (data_clean.csv) ke dalam Data Frame
 
-df = pd.read_csv("P0LC3_Ali Abdurrahman_data_clean")
+df = pd.read_csv("data_clean.csv")
 
 @app.get("/")
 def home():
